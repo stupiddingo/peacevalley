@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Antropos';
+	src: url('antropos.eot');
+	src: url('antropos.eot?#iefix') format('embedded-opentype'),
+		url('antropos.woff') format('woff'),
+		url('antropos.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

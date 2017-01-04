@@ -153,6 +153,9 @@ hr.right {
 hr.colored {
   border-color: #A1A744;
 }
+hr.clear {
+  border-color: transparent;
+}
 @media (min-width: 768px) {
   hr {
     max-width: 200px;

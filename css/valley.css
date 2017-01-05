@@ -963,14 +963,14 @@ aside.cta-quote span.quote {
 .school .school-item hr {
   max-width: 100px;
 }
-.school .school-item .price {
+.school .school-item .pupils {
   margin-bottom: 20px;
 }
-.school .school-item .price .number {
+.school .school-item .pupils .number {
   font-weight: 900;
   font-size: 50px;
 }
-.school .school-item .price .number sup {
+.school .school-item .pupils .number sup {
   font-size: 30px;
 }
 .school .school-item .list-group-item {

@@ -228,7 +228,6 @@ hr.clear {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 24px;
-  max-width: 70%;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-inverse .navbar-brand:hover,

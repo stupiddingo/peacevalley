@@ -663,9 +663,9 @@
     </div>
 </section>
 
-<!-- Button to Donate
-<a href="#"
-   class="btn btn-block btn-full-width">Donate to our school</a>-->
+<!-- Button to Donate -->
+<a href="#donateModal" data-toggle="modal"
+   class="btn btn-block btn-full-width"><strong>Donate to our school!</strong></a>
 
 <!-- Footer -->
 <footer class="footer" style="background-image: url('img/home/Footer-by-Brent-Thomas.jpg')">
@@ -705,6 +705,43 @@
         </div>
     </div>
 </footer>
+
+<!-- Portfolio Modals -->
+<!-- Example Modal 1: Corresponds with Portfolio Carousel Item 1 -->
+<div class="portfolio-modal modal fade" id="donateModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/home/Trail-by-Brent-Thomas.jpg')">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Donate to our School</h2>
+                        <hr class="colored">
+                        <p>We are collecting tax-deductible contributions toward our school. Donations will be used to pay for fees, permits and expenses when initializing the school.</p>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="on0" value="Short Message">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+                            <div class="input-group input-group-lg">
+                                <input class="form-control" placeholder="Leave a short message" type="text" name="os0" maxlength="200">
+                                <span class="input-group-btn"><input type="submit" class="btn btn-primary" name="submit" value="Donate!" /></span>
+                            </div>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            <p class="small">You will be redirected to PayPal to complete the donation.</p>
+                        </form>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Core Scripts -->
 <script src="vendor/jquery/jquery.min.js"></script>

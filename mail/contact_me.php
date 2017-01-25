@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // create email body and send it	
-$to = 'info@peacevalleycharter.org';
+$to = 'peacevalleycharter@gmail.com';
 $email_subject = "Peace Valley Contact Form:  $name";
 $email_body = "You have received a new message from the Peace Valley Homepage.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@peacevalleycharter.org\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
